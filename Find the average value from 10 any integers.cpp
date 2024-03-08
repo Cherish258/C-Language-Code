@@ -14,14 +14,15 @@ int main()
 	for (i = 0; i < 10; i++)
 	{
 		scanf("%d", &arr[i]);
+		sum = sum + arr[i];
 	}
 
 	//Compute
-	sum = arr[0];
-	for (i = 1; i < 10; i++)
-	{
-		sum = sum + arr[i];
-	}
+	//sum = arr[0];
+	//for (i = 1; i < 10; i++)
+	//{
+	//	sum = sum + arr[i];
+	//}
 	avg = sum / 10.0;
 
 	//Output
