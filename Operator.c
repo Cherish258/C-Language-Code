@@ -3,9 +3,9 @@
 
 int main()
 {
-	printf("Take the quotient value of 9¡Â2: %d\n", 9 / 2);
-	printf("Take the result of division of 9¡Â2: %.1f\n", 9 / 2.0);
-	printf("Take the modulus value of 9¡Â2: %d\n", 9 % 2);
+	printf("Take the quotient value of 9Ã·2: %d\n", 9 / 2);
+	printf("Take the result of division of 9Ã·2: %.1f\n", 9 / 2.0);
+	printf("Take the modulus value of 9Ã·2: %d\n", 9 % 2);
 	printf("Shift 2 to the left by one place: %d\n", 2 << 1);
 	int Year = 0;
 	printf("The value of Year: %d\n", Year += 2024);
